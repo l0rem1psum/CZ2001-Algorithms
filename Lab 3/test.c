@@ -132,101 +132,101 @@ void test(int size){
     printf("###########################################################################\n");
 
 
-//    intArray *intArr = generateRandomTestArray(size);
-//    printf("Sorting %d integers in a randomly generated array with InsertionSort1.\n", size);
-//    clock_t begin = clock();
-//    insertionSort1(intArr);
-//    clock_t end = clock();
-//    double exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateAscendingTestArray(size);
-//    printf("Sorting %d integers in an ascending array with InsertionSort1.\n", size);
-//    begin = clock();
-//    insertionSort1(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateDescendingTestArray(size);
-//    printf("Sorting %d integers in a descending array with InsertionSort1.\n", size);
-//    begin = clock();
-//    insertionSort1(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    printf("---------------------------------------------------------------------------\n");
-//
-//    intArr = generateRandomTestArray(size);
-//    printf("Sorting %d integers in a randomly generated array with InsertionSort2.\n", size);
-//    begin = clock();
-//    insertionSort2(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateAscendingTestArray(size);
-//    printf("Sorting %d integers in an ascending array with InsertionSort2.\n", size);
-//    begin = clock();
-//    insertionSort2(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateDescendingTestArray(size);
-//    printf("Sorting %d integers in a descending array with InsertionSort2.\n", size);
-//    begin = clock();
-//    insertionSort2(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    printf("---------------------------------------------------------------------------\n");
-//
-//    intArr = generateRandomTestArray(size);
-//    printf("Sorting %d integers in a randomly generated array with MergeSort1.\n", size);
-//    begin = clock();
-//    mergeSort1(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateAscendingTestArray(size);
-//    printf("Sorting %d integers in an ascending array with MergeSort1.\n", size);
-//    begin = clock();
-//    mergeSort1(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    intArr = generateDescendingTestArray(size);
-//    printf("Sorting %d integers in a descending array with MergeSort1.\n", size);
-//    begin = clock();
-//    mergeSort1(intArr);
-//    end = clock();
-//    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
-//    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
-//    fprintf(fPointer, "%f,", exec_time);
-//    free(intArr);
-//
-//    printf("---------------------------------------------------------------------------\n");
+    intArray *intArr = generateRandomTestArray(size);
+    printf("Sorting %d integers in a randomly generated array with InsertionSort1.\n", size);
+    clock_t begin = clock();
+    insertionSort1(intArr);
+    clock_t end = clock();
+    double exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateAscendingTestArray(size);
+    printf("Sorting %d integers in an ascending array with InsertionSort1.\n", size);
+    begin = clock();
+    insertionSort1(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateDescendingTestArray(size);
+    printf("Sorting %d integers in a descending array with InsertionSort1.\n", size);
+    begin = clock();
+    insertionSort1(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    printf("---------------------------------------------------------------------------\n");
+
+    intArr = generateRandomTestArray(size);
+    printf("Sorting %d integers in a randomly generated array with InsertionSort2.\n", size);
+    begin = clock();
+    insertionSort2(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateAscendingTestArray(size);
+    printf("Sorting %d integers in an ascending array with InsertionSort2.\n", size);
+    begin = clock();
+    insertionSort2(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateDescendingTestArray(size);
+    printf("Sorting %d integers in a descending array with InsertionSort2.\n", size);
+    begin = clock();
+    insertionSort2(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    printf("---------------------------------------------------------------------------\n");
+
+    intArr = generateRandomTestArray(size);
+    printf("Sorting %d integers in a randomly generated array with MergeSort1.\n", size);
+    begin = clock();
+    mergeSort1(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateAscendingTestArray(size);
+    printf("Sorting %d integers in an ascending array with MergeSort1.\n", size);
+    begin = clock();
+    mergeSort1(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    intArr = generateDescendingTestArray(size);
+    printf("Sorting %d integers in a descending array with MergeSort1.\n", size);
+    begin = clock();
+    mergeSort1(intArr);
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
+    fprintf(fPointer, "%f,", exec_time);
+    free(intArr);
+
+    printf("---------------------------------------------------------------------------\n");
 
     intArray *intArr = generateRandomTestArray(size);
     printf("Sorting %d integers in a randomly generated array with MergeSort2.\n", size);

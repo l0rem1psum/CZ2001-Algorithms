@@ -136,8 +136,6 @@ void mergeWithAux(int *arr, int size){
         a++;
     }
     free(auxArr);
-    //_printSorted(auxArr, size);
-    //return auxArr;
 }
 
 /***************************************************************/
