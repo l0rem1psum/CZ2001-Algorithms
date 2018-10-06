@@ -228,12 +228,12 @@ void test(int size){
 
     printf("---------------------------------------------------------------------------\n");
 
-    intArray *intArr = generateRandomTestArray(size);
+    intArr = generateRandomTestArray(size);
     printf("Sorting %d integers in a randomly generated array with MergeSort2.\n", size);
-    clock_t begin = clock();
+    begin = clock();
     mergeSort2(intArr);
-    clock_t end = clock();
-    double exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
+    end = clock();
+    exec_time = (double)(end - begin) / CLOCKS_PER_SEC;
     printf("Sort finished! Total time taken is %f seconds.\n", exec_time);
     fprintf(fPointer, "%f,", exec_time);
     free(intArr);
